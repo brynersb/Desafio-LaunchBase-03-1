@@ -1,5 +1,8 @@
 
-#Desafio-2-3 LaunchBase 
+#Desafio-LaunchBase-03-1
+
+
+Abaixo a descrição do que fôra solicitado no desafio:
 
 ## :rocket: Sobre o desafio
 
