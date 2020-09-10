@@ -1,25 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+{% extends "layout.njk" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/styles.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
-    <title>Rocketseat School - Cursos</title>
-</head>
-
-<body>
-    <header>
-        <nav>
-            <a href="/">Sobre</a>
-            <a href="https://discordapp.com/invite/">Comunidade</a>
-            <a href="mailto:oi@rocketseat.com.br">Email</a>
-            <a href="tel:+5581997186058">Telefone</a>
-            <a href="/courses">Conteudos</a>
-        </nav>
-    </header>
+{% block content %}
 
     <div id="wrapper">
         <h1>Cursos</h1>
@@ -95,15 +76,6 @@
         </div>
     </div>
 
-
-    <footer>
-        <span>
-            <a href="http://github.com.br">Github</a>
-            <a href="http://linkedin.com.br">linkedin</a>
-            <a href="http://instagram.com.br">Instagram</a>
-        </span>
-    </footer>
     <script src="/scripts/script.js"></script>
-</body>
 
-</html>
+{% endblock content %}
